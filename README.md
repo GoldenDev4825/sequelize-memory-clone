@@ -124,8 +124,8 @@ This package uses TypeScript and relies on `ioredis` as the default adapter.
 **1. Clone the Repository:**
 
 ```
-git clone git@github.com:YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone git@github.com:GoldenDev4825/sequelize-memory-clone.git
+cd sequelize-memory-clone
 npm install
 ```
 **2. Build Code:**
