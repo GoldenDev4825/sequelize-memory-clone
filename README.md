@@ -2,7 +2,6 @@
 
 [![npm version](https://img.shields.io/npm/v/sequelize-memory-clone)](https://www.npmjs.com/package/sequelize-memory-clone)
 [![TypeScript](https://img.shields.io/badge/Written%20in-TypeScript-blue)](https://www.typescriptlang.org/)
-[![License](https://img.shields.io/badge/License-MIT-brightgreen)](LICENSE)
 
 An enhanced caching layer for Sequelize, transforming your Redis instance into a near real-time, in-memory clone of your database for frequently accessed data.
 
@@ -121,6 +120,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 **Development Setup**
 
 This package uses TypeScript and relies on `ioredis` as the default adapter.
+
 **1. Clone the Repository:**
 
 ```
