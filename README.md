@@ -81,7 +81,7 @@ Access all caching features explicitly through the `.cache()` call.
 
 The following sequence demonstrates the core functionality:
 
-```
+```typescript
 // --- TEST FLOW ---
 
 // 1. Create: Writes to DB and populates entity cache. (Cache: [User:1] = { name: Alice })
