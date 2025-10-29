@@ -1,6 +1,6 @@
 {
   "name": "sequelize-memory-clone",
-  "version": "0.0.1-alpha.3",
+  "version": "0.0.1-alpha.4",
   "description": "Enhanced Sequelize caching for Redis/ioredis. Provides deep entity hydration and automatic mass query invalidation on writes.",
   "main": "index.js",
   "exports": {
