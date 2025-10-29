@@ -31,13 +31,9 @@
     "sequelize": "^6.37.7"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^28.0.9",
-    "@rollup/plugin-node-resolve": "^16.0.3",
     "@types/ioredis": "^4.28.10",
     "@types/node": "^24.9.2",
     "@types/sequelize": "^4.28.20",
-    "rollup": "^4.52.5",
-    "rollup-plugin-typescript2": "^0.36.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }
