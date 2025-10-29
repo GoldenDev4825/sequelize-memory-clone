@@ -1,0 +1,44 @@
+{
+  "name": "sequelize-memory-clone",
+  "version": "0.0.1-alpha.2",
+  "description": "Enhanced Sequelize caching for Redis/ioredis. Provides deep entity hydration and automatic mass query invalidation on writes.",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.js",
+      "types": "./dist/esm/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json && tsc --project tsconfig.cjs.json",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "sequelize",
+    "redis",
+    "caching",
+    "invalidation"
+  ],
+  "author": "Golden Development",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoldenDev4825/sequelize-memory-clone.git"
+  },
+  "dependencies": {
+    "ioredis": "^5.8.2",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.9",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@types/ioredis": "^4.28.10",
+    "@types/node": "^24.9.2",
+    "@types/sequelize": "^4.28.20",
+    "rollup": "^4.52.5",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
