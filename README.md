@@ -20,7 +20,7 @@ This package provides **deep, associative caching** for individual entities and 
 
 ## 🚀 Installation
 This library requires `sequelize`, `ioredis`, and your choice of database driver.
-```
+```bash
 # Install the core library
 npm install sequelize-memory-clone sequelize ioredis
 ```
@@ -123,20 +123,20 @@ This package uses TypeScript and relies on `ioredis` as the default adapter.
 
 **1. Clone the Repository:**
 
-```
+```bash
 git clone git@github.com:GoldenDev4825/sequelize-memory-clone.git
 cd sequelize-memory-clone
 npm install
 ```
 **2. Build Code:**
 
-```
+```bash
 npm run build
 ```
 This compiles the TypeScript (`src/`) into CJS and ESM formats in the `dist/` directory.
 
 **3. Local Testing:** Use `npm link` to test your changes in a local application environment:
-```
+```bash
 # In the library directory
 npm link
 
@@ -146,7 +146,7 @@ npm link sequelize-memory-clone
 **Adapter Development**
 
 The core interface is simple, allowing for easy adaptation to other cache systems:
-```
+```typescript
 export interface CacheAdapter {
   get(key: string[]): Promise<any | null>;
   set(key: string[], value: any, options?: { lifetime?: number }): Promise<void>;
